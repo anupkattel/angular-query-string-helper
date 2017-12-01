@@ -1,0 +1,26 @@
+{
+  "name": "angular-query-string-helper",
+  "version": "1.0.1",
+  "description": "A tiny helper package that returns the query string data as a javascript object.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanup/angular-query-string-helper.git"
+  },
+  "keywords": [
+    "angular",
+    "querystring",
+    "object"
+  ],
+  "author": "Anup Kattel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanup/angular-query-string-helper/issues"
+  },
+  "homepage": "https://github.com/kanup/angular-query-string-helper#readme"
+}
