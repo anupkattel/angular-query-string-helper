@@ -1,6 +1,6 @@
 {
   "name": "angular-query-string-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny helper package that returns the query string data as a javascript object.",
   "main": "index.js",
   "dependencies": {},
