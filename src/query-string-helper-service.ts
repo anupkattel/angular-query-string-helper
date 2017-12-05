@@ -8,7 +8,7 @@ export class QueryStringHelperService {
         var search = location.search.substring(1)
         if (search) {
             return JSON.parse('{"' +
-                decodeURI(search.replace(/\+/g, '%20')) //Replace the + with spaces before decoding to preserve actual + sign
+                decodeURIComponent(search.replace(/\+/g, '%20')) //Replace the + with spaces before decoding to preserve actual + sign
                     .replace(/"/g, '\\"')   // unescape the double quotes
                     .replace(/&/g, '","')   // & separates the key value pairs so create a new property by using a comma
                     .replace(/=/g, '":"')   // = should be replaced to : for json objects.
